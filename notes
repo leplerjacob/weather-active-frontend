@@ -1,0 +1,32 @@
+
+/* <App />
+  state = {
+    location: “”,
+    weather: [{
+      description: “”,
+      temperature: “”
+    }, {two}, {three}],
+    activity: [{
+      name: “”,
+    }, {two}, {three}, ...]
+    user: {
+      username: “”
+      favorites: [{location, activity}]
+    },
+    timeframe: “day” || “week” || “10day” || “weekend”,
+  }
+  {If logged out}
+  <Login>
+    <SignForm />
+    or
+    <LoginForm>
+  </Login>
+  {If logged in}
+  <Dashboard>
+    <MainContainer>
+      <SearchLocation />
+      <Activities />
+      <Weather data={filteredData(“day”,“week”)} />
+    </ MainContainer>
+  </ Dashboard>
+<App />
