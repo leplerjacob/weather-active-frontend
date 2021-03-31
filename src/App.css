@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+
 :root {
   /* ColorScheme */
   --main-sunny: #ffc300;
@@ -7,4 +9,20 @@
 }
 
 body {
+  height: 100vh
+}
+
+.header {
+  font-family: "Parisienne", cursive;
+  text-align: center
+}
+
+.signin.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.signin.row input {
+  text-align: center;
 }
