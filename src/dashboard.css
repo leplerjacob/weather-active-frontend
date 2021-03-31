@@ -1,0 +1,16 @@
+.dashboard {
+    width: 100%;
+    display: flex;
+  }
+  
+  .card {
+    margin: auto
+  }
+  
+  .error {
+    color: red
+  }
+
+  .header {
+    font-size: 3rem;
+  }
